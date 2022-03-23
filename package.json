@@ -1,0 +1,16 @@
+{
+  "name": "valka-ztraty",
+  "version": "1.0.0",
+  "description": "Sebrání a analýza dat o zničené voljenské technice ve válce o Ukrajinu.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "data",
+    "analysis",
+    "war"
+  ],
+  "author": "Petr Kočí",
+  "license": "MIT"
+}
