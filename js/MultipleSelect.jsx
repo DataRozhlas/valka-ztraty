@@ -31,6 +31,8 @@ function getStyles(name, personName, theme) {
 function MultipleSelect({ data, vybrane, setVybrane }) {
   const theme = useTheme();
 
+  const typyZbrani = [...new Set(data.map((d) => d.type))];
+
   const handleChange = (event) => {
     const {
       target: { value },
@@ -44,7 +46,7 @@ function MultipleSelect({ data, vybrane, setVybrane }) {
   return (
     <div>
       {" "}
-      <FormControl sx={{ m: 1, width: 300 }}>
+      <FormControl sx={{ m: 1, ml: 0, width: "100%" }}>
         <InputLabel id="demo-multiple-chip-label">
           Vyberte typ vojenské techniky
         </InputLabel>
@@ -69,13 +71,13 @@ function MultipleSelect({ data, vybrane, setVybrane }) {
           )}
           MenuProps={MenuProps}
         >
-          {data.map((name, i) => (
+          {typyZbrani.map((name, i) => (
             <MenuItem
               key={i}
-              value={name.type}
-              style={getStyles(name.type, vybrane, theme)}
+              value={name}
+              style={getStyles(name, vybrane, theme)}
             >
-              {name.type}
+              {name}
             </MenuItem>
           ))}
         </Select>

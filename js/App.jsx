@@ -24,7 +24,7 @@ const getData = async (url) => {
 
 const translateData = (data, slovnicek) => {
   const prelozenaData = data.map((d) => {
-    const translatedType = slovnicek.filter((s) => s[0] === d.type);
+    const translatedType = slovnicek.filter((s) => s[0] === d.type)[0][1];
     console.log(translatedType);
     return {
       ...d,
@@ -44,7 +44,9 @@ const slovnicek = [
   ["Infantry Mobility Vehicles", "Lehká obrněná vozidla"],
   ["Communications Stations", "Spojovací technika"],
   ["Engineering Vehicles And Equipment", "Ženijní technika"],
+  ["Engineering Vehicles", "Ženijní technika"],
   ["Anti-Tank Guided Missiles", "Protitankové řízené střely"],
+  ["Anti-tank Guided Missiles", "Protitankové řízené střely"],
   ["Man-Portable Air Defence Systems", "Přenosné systémy protivzdušné obrany"],
   ["Heavy Mortars", "Těžké minomety"],
   ["Towed Artillery", "Tažená děla"],
@@ -66,9 +68,10 @@ const slovnicek = [
 function App() {
   const [data, setData] = useState([]);
   const [vybrane, setVybrane] = useState([
-    "All Types",
-    "Tanks",
-    "Unmanned Aerial Vehicles",
+    "Tanky",
+    "Drony",
+    "Letadla",
+    "Vrtulníky",
   ]);
 
   useEffect(async () => {
