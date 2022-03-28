@@ -2,10 +2,14 @@ title: "O raketové systémy Rusové nesmyslně přicházejí dva kilometry za f
 perex: "Od prvního dne ruské invaze na Ukrajinu se z bojů šíří fotky a videa zničené techniky. Jakub Janovský pracuje v týmu, který tyto chaotické příspěvky přetváří v co nejspolehlivější databázi."
 coverimg:
 coverimg_note: "Foto <a href='https://ctk.cz'>ČTK</a>"
-styles: []
+styles: ["https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"]
 libraries: [] #jquery, d3, highcharts, datatables
 options: [noheader, nopic] #wide, noheader (, nopic)
 ---
+<wide>
+<div id="root"></div>
+</wide>
+
 IT specialista a nadšenec do vojenské techniky. Od začátku války věnuje veškerý volný čas ověřování fotek a videí vojenské techniky z internetu. Je členem hlavního čtyřčlenného týmu, který na holandském blogu [Oryx](https://www.oryxspioenkop.com/) publikuje nejúplnější veřejně dostupné seznamy.  V minulých válkách spolupracoval na podobných projektech s Bellingcatem.
 
 ### Má smysl počítat záběry ohořelých tanků z internetu, když to není reprezantivní?
