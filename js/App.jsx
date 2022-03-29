@@ -1,7 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useLayoutEffect } from "react";
 import d3 from "./d3Importer.js";
 import MultipleSelect from "./MultipleSelect.jsx";
 import Graf from "./Graf.jsx";
+import Legenda from "./Legenda.jsx";
+
+const isMobile = window.innerWidth < 768;
 
 const getData = async (url) => {
   try {
@@ -25,7 +28,6 @@ const getData = async (url) => {
 
 const translateData = (data, slovnicek) => {
   const prelozenaData = data.map((d) => {
-    console.log(d.type);
     const translatedType = slovnicek.filter((s) => s[0] === d.type)[0][1];
     return {
       ...d,
@@ -71,8 +73,9 @@ function App() {
   const [vybrane, setVybrane] = useState([
     "Všechny druhy zbraní",
     "Tanky",
-    "Letadla",
+    "Bojová vozidla pěchoty",
   ]);
+  const [maxLength, setMaxLength] = useState(2020);
 
   useEffect(async () => {
     const data = await getData(
@@ -82,11 +85,30 @@ function App() {
     setData(result);
   }, []);
 
+  useLayoutEffect(() => {
+    const vybranaData = data.filter((d) => vybrane.includes(d.type));
+    const newMax = vybranaData.reduce((acc, curr) => {
+      const total =
+        curr.destroyed + curr.captured + curr.damaged + curr.abandoned;
+      return total > acc ? total : acc;
+    }, 0);
+    setMaxLength(newMax);
+  }, [vybrane, data]);
+
   return (
     <div>
       <MultipleSelect data={data} vybrane={vybrane} setVybrane={setVybrane} />
+      <Legenda />
       {data.length !== 0 &&
-        vybrane.map((v, i) => <Graf key={i} v={v} data={data}></Graf>)}
+        vybrane.map((v, i) => (
+          <Graf
+            key={i}
+            v={v}
+            data={data}
+            isMobile={isMobile}
+            maxLength={maxLength}
+          ></Graf>
+        ))}
     </div>
   );
 }

@@ -2,7 +2,7 @@ import React from "react";
 import HighchartsReact from "highcharts-react-official";
 import Highcharts from "highcharts";
 
-function Graf({ v, data }) {
+function Graf({ v, data, isMobile, maxLength }) {
   const vybranaData = data.filter((d) => d.type === v);
   const Rusko = vybranaData.filter((d) => d.country === "Russia");
   const Ukrajina = vybranaData.filter((d) => d.country === "Ukraine");
@@ -37,8 +37,6 @@ function Graf({ v, data }) {
     },
   ];
 
-  console.log(vybranaData);
-
   return (
     <div>
       <HighchartsReact
@@ -48,12 +46,13 @@ function Graf({ v, data }) {
           credits: { enabled: false },
           chart: {
             type: "bar",
-            height: "20%",
+            height: isMobile ? "40%" : "20%",
           },
           xAxis: {
             categories: ["Rusko", "Ukrajina"],
           },
           yAxis: {
+            max: maxLength,
             title: {
               enabled: false,
             },
