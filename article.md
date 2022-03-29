@@ -19,7 +19,11 @@ Jakub Janovský je odborník na počítačové sítě a zároveň nadšenec do v
 Smysl to určitě má. Pokud člověk chce mít aspoň hrubý přehled o rozsahu ztrát a o stavu znepřátelených armád, potřebuje nějaká data. Je velký rozdíl vědět, zda Rusko dosud ztratilo přinejmenším 50 tanků, nebo 300 tanků. Dokud člověk neprobere veškerá dostupná obrazová data, neeliminuje záběr stejného, již jednou započítaného tanku ze třináctého úhlu a podobně, je skutečně obtížné skutečné ztráty odhadnout. Zejména když čísla rychle narůstají.
 
 <right>
-<img src="https://data.irozhlas.cz/">
+<img src="https://data.irozhlas.cz/valka-ztraty/data/jakub_janovsky.jpg" loading="lazy" width="100%"/>
+<h4>JAKUB JANOVSKÝ (35)</h4>
+<p>Počítačový odborník, pracuje v telekomunikační firmě.</p>
+<p> Jeho koníčkem je vojenská historie a <a href="https://cs.wikipedia.org/wiki/Zpravodajstv%C3%AD_z_otev%C5%99en%C3%BDch_zdroj%C5%AF">OSINT - Open Source Intelligence</a>, tedy získávání a ověřování zpravodajských informací z otevřených zdrojů.</p>
+<p>Vedle Oryxu příležitostně <a href="https://www.bellingcat.com/author/jakubjanovsky/">spolupracuje</a> také s oceňovaným projektem občanské žurnalistiky Bellingcat.</p>
 </right>
 
 Lidé musí počítat s tím, že námi zveřejňovaná čísla jsou základ. Je to minimum ztrát, které jsou vizuálně potvrzené a nezávisle ověřené. O kolik je realita vyšší, o tom se můžeme bavit. Nejsou to dokonalá data, ale jsou to ta nejlepší, jaká jsou nyní veřejně k dispozici.
