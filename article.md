@@ -84,29 +84,29 @@ Překvapilo mě, že Rusové byli mnohem hůž připravení, než se dalo realis
 
 Co se týče techniky, tak podle očekávání: Když někdo napatlá na střechu T-72 trochu plechu nebo ocelovou konstrukci,tak tím moderní protitankovou střelu skutečně nezastaví. A všichni kromě ruských vojáků to věděli to dopředu. Proč se s těmi úpravami obtěžovali, netuším.
 
-### Těm konstrukcím se říká emocionální podpěry...
+*Těm konstrukcím se říká emocionální podpěry...*
 
 To věřím, ale jejich efekt v boji je nulový a v některých případech záporný. Protože konstrukce způsobí, že v některých situacích je tank lépe vidět a dá se líp zaměřit. Tank bez klece by se daleko líp schoval za nízkou zdí nebo v terénu, takhel je jeho detekce daleko snadnější.
 
 Psychologická a velmi teoretická šance, že by konstrukce mohla nějak pomoci, je tím minimálně vyvážená.
 
-### Co vás ještě překvapilo?
+*Co vás ještě překvapilo?*
 
 Největší kuriozita je, kolik protiletadlových systémů jako BUK, THOR a jiných modelů středního i krátkého dosahu Rusové ztrácejí, ať už jsou to zničená nebo opuštěná vozidla. Protože to vůbec není technika, která by se měla pohybovat na frontové linii. Jejich papírový dosah je od patnácti kilometrů výš, takže není důvod, aby courali dva kilometry za tanky.
 
-### Nemohli zabloudit?
+*Nemohli zabloudit?*
 
 U spousty jednotek bylo jasné, že zabloudily, popřípadě měly problémy se spojením s veliteli, takže pak někde zastavily a nedopadlo to snimi dobře.
 
 Asi před týdnem například Ukrajinci našli v lese zaparkované tři Tungušky, což jsou v podstatě mobilní protiletadlové kanóny, který mají současně rakety krátkého doletu proti letadlům. Ukrajinci je pochopitelně podpálili, protože to neměli jak z lesa promptně dostat.
 
- Ukrajinci poměrně rychle rozdistribuovali informaci, že pokud to jde odtáhnout a použít pro naše účely, udělejte to. Pokud ne, tak rychle podpálit, vyhodit do vzduchu.
+Ukrajinci poměrně rychle rozdistribuovali informaci, že pokud to jde odtáhnout a použít pro naše účely, udělejte to. Pokud ne, tak rychle podpálit, vyhodit do vzduchu.
 
-### Ověřoval jste ztráty techniky také v Sýrii nebo v Náhorním Karabachu. Čím se Ukrajina od těchto válek liší?
+*Ověřoval jste ztráty techniky také v Sýrii nebo v Náhorním Karabachu. Čím se Ukrajina od těchto válek liší?*
 
 Nepochybně otevřenou a výraznou západní podporou co se týče dodávek zbraní. To, co se dodalo za celou dobu, kdy to šlo, do Sýrie, je zaokrouhlovací položka oproti tomu, co se na Ukrajinu poslalo během pár týdnů.
 
-### Takže MANPADY (přenosné protiletadlové střely, které se odpalují z ramene, například americký Stinger), Javeliny a NLAW (automaticky naváděné púrotitankové střely) můžou být v takovým konfliktu rozhodující?
+*Takže MANPADY (přenosné protiletadlové střely, které se odpalují z ramene, například americký Stinger), Javeliny a NLAW (automaticky naváděné púrotitankové střely) můžou být v takovým konfliktu rozhodující?*
 
 Jak protitankové, tak protiletadlové střely. Rusové stále operují se spoustu letadel a vrtulníků a Ukrajinci, když jim dodáme zítra dalších tisíc protiletadlových střel, pro ně určitě najdou využití. Už jenom proto, aby vyplnili mezery v pokrytí standardní protiletadlové ochrany. A zrovna tyhle účinné protiletadlové zbraně do Sýrie nikdy nešly.
 
