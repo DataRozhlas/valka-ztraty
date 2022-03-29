@@ -122,6 +122,7 @@ function App() {
           <Link href="https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html">
             Oryx Blog
           </Link>
+          , stav k 29. březnu
         </Typography>
       </Container>
     </div>
