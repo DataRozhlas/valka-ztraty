@@ -10,8 +10,8 @@ function Legenda({ isMobile }) {
         justifyContent: "center",
         gap: isMobile ? "1rem" : "2rem",
         flexWrap: "wrap",
-        marginTop: "1rem",
-        marginBottom: "1rem",
+        marginTop: isMobile ? "0.5rem" : "1rem",
+        marginBottom: isMobile ? "0.5rem" : "1rem",
       }}
     >
       <div>

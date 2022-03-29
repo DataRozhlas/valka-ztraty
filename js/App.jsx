@@ -3,6 +3,9 @@ import d3 from "./d3Importer.js";
 import MultipleSelect from "./MultipleSelect.jsx";
 import Graf from "./Graf.jsx";
 import Legenda from "./Legenda.jsx";
+import Typography from "@mui/material/Typography";
+import Container from "@mui/material/Container";
+import Link from "@mui/material/Link";
 
 const isMobile = window.innerWidth < 768;
 
@@ -109,6 +112,18 @@ function App() {
             maxLength={maxLength}
           ></Graf>
         ))}
+      <Container>
+        <Typography
+          variant="caption"
+          display="flex"
+          sx={{ justifyContent: "flex-end" }}
+        >
+          Zdroj dat:&nbsp;
+          <Link href="https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html">
+            Oryx Blog
+          </Link>
+        </Typography>
+      </Container>
     </div>
   );
 }
