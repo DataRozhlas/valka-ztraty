@@ -1,4 +1,4 @@
-title: "O raketové systémy Rusové nesmyslně přicházejí dva kilometry za frontou, říká Čech, který ověřuje ztráty"
+title: "O raketové systémy Rusové přicházejí dva kilometry za frontou, diví se Čech, který ověřuje ztráty"
 perex: "Od prvního dne ruské invaze na Ukrajinu se z bojů šíří fotky a videa zničené techniky. Jakub Janovský pracuje v mezinárodním týmu, který chaotické příspěvky přetváří v co nejspolehlivější databázi. Ověřené ztráty ruské armády podle ní přesáhly dva tisíce kusů bojové techniky, na ukrajinské straně je to zatím čtvrtina."
 coverimg:
 coverimg_note: "Foto <a href='https://ctk.cz'>ČTK</a>"
