@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import d3 from "./d3Importer.js";
 import MultipleSelect from "./MultipleSelect.jsx";
+import Graf from "./Graf.jsx";
 
 const getData = async (url) => {
   try {
@@ -25,7 +26,6 @@ const getData = async (url) => {
 const translateData = (data, slovnicek) => {
   const prelozenaData = data.map((d) => {
     const translatedType = slovnicek.filter((s) => s[0] === d.type)[0][1];
-    console.log(translatedType);
     return {
       ...d,
       type: translatedType,
@@ -35,7 +35,7 @@ const translateData = (data, slovnicek) => {
 };
 
 const slovnicek = [
-  ["All Types", "Všechny druhy zbraní "],
+  ["All Types", "Všechny druhy zbraní"],
   ["Tanks", "Tanky"],
   ["Armoured Fighting Vehicles", "Obrněná bojová vozidla"],
   ["Infantry Fighting Vehicles", "Bojová vozidla pěchoty"],
@@ -68,10 +68,9 @@ const slovnicek = [
 function App() {
   const [data, setData] = useState([]);
   const [vybrane, setVybrane] = useState([
+    "Všechny druhy zbraní",
     "Tanky",
-    "Drony",
     "Letadla",
-    "Vrtulníky",
   ]);
 
   useEffect(async () => {
@@ -85,6 +84,8 @@ function App() {
   return (
     <div>
       <MultipleSelect data={data} vybrane={vybrane} setVybrane={setVybrane} />
+      {data.length !== 0 &&
+        vybrane.map((v, i) => <Graf key={i} v={v} data={data}></Graf>)}
     </div>
   );
 }
