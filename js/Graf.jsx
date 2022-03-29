@@ -42,7 +42,10 @@ function Graf({ v, data, isMobile, maxLength }) {
       <HighchartsReact
         highcharts={Highcharts}
         options={{
-          title: { text: vybranaData[0].type },
+          title: {
+            text: vybranaData[0].type,
+            useHTML: true,
+          },
           credits: { enabled: false },
           chart: {
             type: "bar",

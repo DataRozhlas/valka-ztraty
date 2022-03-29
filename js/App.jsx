@@ -98,7 +98,7 @@ function App() {
   return (
     <div>
       <MultipleSelect data={data} vybrane={vybrane} setVybrane={setVybrane} />
-      <Legenda />
+      <Legenda isMobile={isMobile} />
       {data.length !== 0 &&
         vybrane.map((v, i) => (
           <Graf
