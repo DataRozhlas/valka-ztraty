@@ -41,7 +41,7 @@ const translateData = (data, slovnicek) => {
 };
 
 const slovnicek = [
-  ["All Types", "Všechny druhy zbraní"],
+  ["All Types", "Všechny druhy vojenské techniky"],
   ["Tanks", "Tanky"],
   ["Armoured Fighting Vehicles", "Obrněná bojová vozidla"],
   ["Infantry Fighting Vehicles", "Bojová vozidla pěchoty"],
@@ -74,7 +74,7 @@ const slovnicek = [
 function App() {
   const [data, setData] = useState([]);
   const [vybrane, setVybrane] = useState([
-    "Všechny druhy zbraní",
+    "Všechny druhy vojenské techniky",
     "Tanky",
     "Bojová vozidla pěchoty",
   ]);
@@ -120,7 +120,7 @@ function App() {
         >
           Zdroj dat:&nbsp;
           <Link href="https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html">
-            Oryx Blog
+            Oryx
           </Link>
           , stav k 29. březnu
         </Typography>
