@@ -21,8 +21,7 @@ Smysl to určitě má. Pokud člověk chce mít aspoň hrubý přehled o rozsahu
 <right>
 <img src="https://data.irozhlas.cz/valka-ztraty/data/jakub_janovsky.jpg" loading="lazy" width="100%"/>
 <h4>JAKUB JANOVSKÝ (35)</h4>
-<p>Počítačový odborník, pracuje v telekomunikační firmě.</p>
-<p> Jeho koníčkem je vojenská historie a <a href="https://cs.wikipedia.org/wiki/Zpravodajstv%C3%AD_z_otev%C5%99en%C3%BDch_zdroj%C5%AF">OSINT - Open Source Intelligence</a>, tedy získávání a ověřování zpravodajských informací z otevřených zdrojů.</p>
+<p>Pracuje v telekomunikační firmě. Jeho koníčkem je vojenská historie a <a href="https://cs.wikipedia.org/wiki/Zpravodajstv%C3%AD_z_otev%C5%99en%C3%BDch_zdroj%C5%AF">OSINT - Open Source Intelligence</a>, tedy získávání a ověřování zpravodajských informací z otevřených zdrojů.</p>
 <p>Vedle Oryxu příležitostně <a href="https://www.bellingcat.com/author/jakubjanovsky/">spolupracuje</a> také s oceňovaným projektem občanské žurnalistiky Bellingcat.</p>
 </right>
 
