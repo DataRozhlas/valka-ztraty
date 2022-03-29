@@ -10,13 +10,13 @@ options: [noheader, nopic] #wide, noheader (, nopic)
 <div id="root"></div>
 </wide>
 
-Jakub Janovský je odborník na počítačové sítě a zároveň nadšenec do vojenské techniky. Od začátku ruské války na Ukrajině věnuje veškerý volný čas ověřování fotek a videí zničených transportérů, tanků a letadel, které kolují po internetu. Na [blogu holandských analytiků Oryx](https://www.oryxspioenkop.com/), kteří se v mírových dobách zaměřují na Severní Koreu, publikuje nejúplnější veřejně dostupné seznamy takto ověřených materiálů. 
+Jakub Janovský je odborník na počítačové sítě a zároveň nadšenec do vojenské techniky. Od začátku ruské války na Ukrajině věnuje veškerý volný čas ověřování fotek a videí zničených transportérů, tanků a letadel, které kolují po internetu. Na [blogu nizozemských analytiků Oryx](https://www.oryxspioenkop.com/), kteří se v mírových dobách zaměřují na Severní Koreu, publikuje nejúplnější veřejně dostupné seznamy takto ověřených materiálů. 
 
 „Není to první konflikt, u kterého podobné ověřování děláme. Máme zkušenost například z konfliktu mezi Arménií a Ázerbájdžánem v roce 2020, kde byly ztráty o něco lépe dokumentované a tudíž víc vypovídající,“ říká v rozhovoru pro server iROZHLAS.cz.
 
 *Má smysl sčítat ohořelé tanky, děla a náklaďáky podle záběrů z internetu? Není to jen pokračování informační války?*
 
-Smysl to učitě má. Pokud člověk chce mít aspoň hrubý přehled o rozsahu ztrát a o stavu znepřátelených armád, potřebuje nějaká data. Je velký rozdíl vědět, zda Rusko dosud ztratilo přinejmenším 50 tanků, nebo 300 tanků. Dokud člověk neprobere veškerá dostupná obrazová data, neeliminuje záběr stejného, již jednou započítaného tanku ze třináctého úhlu a podobně, je skutečně obtížné skutečné ztráty odhadnout. Zejména když čísla rychle narůstají.
+Smysl to určitě má. Pokud člověk chce mít aspoň hrubý přehled o rozsahu ztrát a o stavu znepřátelených armád, potřebuje nějaká data. Je velký rozdíl vědět, zda Rusko dosud ztratilo přinejmenším 50 tanků, nebo 300 tanků. Dokud člověk neprobere veškerá dostupná obrazová data, neeliminuje záběr stejného, již jednou započítaného tanku ze třináctého úhlu a podobně, je skutečně obtížné skutečné ztráty odhadnout. Zejména když čísla rychle narůstají.
 
 Lidé musí počítat s tím, že námi zveřejňovaná čísla jsou základ. Je to minimum ztrát, které jsou vizuálně potvrzené a nezávisle ověřené. O kolik je realita vyšší, o tom se můžeme bavit. Nejsou to dokonalá data, ale jsou to ta nejlepší, jaká jsou nyní veřejně k dispozici.
 
@@ -34,7 +34,7 @@ Minimálně 95 procent populace nedokáže [rozeznat jeden ruský tank nebo BVP 
 
 Takže ani tento filtr zase tak výrazný není.
 
-Ruská armáda aspoň na papíře postupuje, takže jejich propagandisti mají docela silnou motivaci zveřejňovat fotografie a záběry vojenských úspěchů, případně záběry z dronů, které jim lítají nad bojištěm. Můžou zveřejňovat a také zveřejňují záběry zásahů, zničených cílů typu ukrajinský tank, ukrajinské dělostřelectvo a podobně.
+Ruská armáda aspoň na papíře postupuje, takže jejich propagandisté mají docela silnou motivaci zveřejňovat fotografie a záběry vojenských úspěchů, případně záběry z dronů, které jim lítají nad bojištěm. Můžou zveřejňovat a také zveřejňují záběry zásahů, zničených cílů typu ukrajinský tank, ukrajinské dělostřelectvo a podobně.
 
 *Z jakých zdrojů berete obrazový materiál k ověřování?*
 
@@ -56,64 +56,60 @@ Když počítám obě strany, tak okolo stovky kusů těžké techniky denně. V
 
 Základem je co nejbližší identifikace vozidla. Sice některé modely sdílejí obě strany, řekněme BVP-2, ale u spousty modelů to tak není. Například u T-90 nebo T-72 ve verzi B3 víme, že jsou vždy ruské.
 
-Ukrajina už pochopitelně používá i některé tanky, které Rusové opustili. Jelikož si ale uchováváme vizuální charakteristiky, fotky zničených i obsazených vozidel, tak se na ně můžeme podívat. Když teď přijde nově zničená T-90, porovnáme ji jak s minulými zničenými, tak i s těmi opuštěnými nebo obsazenými. Charakteristické znaky, poškození, kamufláže... Podle toho většinou velmi rychle identifikujeme konkrétní kusy, které už máme v databázi.
+Ukrajina už pochopitelně používá i některé tanky, které Rusové opustili. Jelikož si ale uchováváme fotky zničených i obsazených vozidel, tak se na ně můžeme podívat. Když teď přijde nově zničená T-90, porovnáme ji jak s minulými zničenými, tak i s těmi opuštěnými nebo obsazenými. Charakteristické znaky, poškození, kamufláže… – Podle toho většinou velmi rychle identifikujeme konkrétní kusy, které už máme v databázi. Pokud je vozidlo výrazně změněné, například výbuchem, pak nad takovými jednotlivými případy musí člověk strávit trochu víc času.
 
-U většiny z nich je tak možné velmi rychle rozhodnout a rychle je eliminovat, pokud je to repost a vozidlo není nějak výrazně změněné, například výbyuchem. Pak zbyde nějaký set jednotlivých případů, nad kterými člověk musí strávit trochu víc času.
-
-Určitě to bylo rychlejší v začátcích, kdy jsme měli u modelu tanku v evidenci třeba jen osm kusů – teď jich máme klidně i víc než padesát.
+Určitě to bylo rychlejší v začátcích, kdy jsme měli u konkrétního modelu tanku v evidenci třeba jen osm kusů – teď jich máme i víc než padesát.
 
 *A co vámi zmíněná geolokace, případně další metadata, která lze z obrazových záznamů získat?*
 
-Geolokaci používáme jenom v nezbytně nutném rozsahu, protože i tak jsme zavalení prací. I když vyloučím ty zatracené náklaďáky, kterých máme asi 500, i když vezmu jenom těžkou techniku, tanky, dělostřelectvo a podobně, tak je to přes tisíc objektů. Člověk musí manuálně vložit a zkontrolvat data o lokalitě, o jednotce a podobně. Takže – trošku práce.
+Geolokaci používáme jenom v nezbytně nutném rozsahu, protože i tak jsme zavalení prací. I když vyloučím ty zatracené náklaďáky, kterých máme asi 500, i když vezmu jenom těžkou techniku, tanky, dělostřelectvo a podobně, tak je to přes tisíc objektů. Člověk musí manuálně vložit a zkontrolovat data o lokalitě, o jednotce a podobně. Takže – trošku práce.
 
-Teď zrovna připrabuju novou databázi, která nám na základě geolokačních metadat pomůže rychleji vyloučit vozidla. Když například z metadat víme s rozumnou mírou jistoty, že je záběr z Mariupolu, porovnáváme ho pak už jen se záběry ze stejného místa a s těmi, u kterých lokalitu určenou nemáme. Díky tomu pak ručně místo třiceti kontrolujeme například jenom deset vozidel, což významně zkracuje dobu, kterou nad tím trávíme.
+Teď zrovna připravuju novou databázi, která nám na základě geolokačních metadat pomůže rychleji vyloučit vozidla. Když například z metadat víme s rozumnou mírou jistoty, že je záběr z Mariupolu, porovnáváme ho pak už jen se záběry ze stejného místa a s těmi, u kterých lokalitu určenou nemáme. Díky tomu už pak ručně kontrolujeme například místo třiceti jenom deset vozidel, což významně zkracuje dobu, kterou nad tím trávíme.
 
-*Publikujete své seznamu jako otevřená data?*
+*Publikujete své seznamy jako otevřená data?*
 
-Nebude to hned, ale máme to v úmyslu, pokud bude válka na Ukrajině trvat dostatečně dlouho. Zrovna včera jsme diskutovali o tom, že to nevypadá, že by to Rusovbé v nejbližších dnech vzdali, takže má smysl udělat to pořádně.
+Nebude to hned, ale máme to v úmyslu, pokud bude válka na Ukrajině trvat dostatečně dlouho. Zrovna včera jsme diskutovali o tom, že to nevypadá, že by to Rusové v nejbližších dnech vzdali, takže má smysl udělat to pořádně.
 
-*Co další skupiny, které se také systematizací a ověřováním zničerné techniky na Ukrajině zabývají?*
+*Co další skupiny, které se také systematizací a ověřováním zničené techniky na Ukrajině zabývají?*
 
-Z toho, co je zveřejněné,  si myslím, že je naše práce nejkompletnější. Jiní jednotlivci nebo i skupiny, bloggeři, účty na Twitteru, taky zkoušejí ověřovat. S většinou z nich na sebe na internetu dřív nebo později narazíme a snažíme se spolupracovat. Buď přímo sdílíme data, nebo se třeba navzájem opravujeme, když dojdeme k závěru, že jde o trochu jiný model... Neberme to jako konkurenci, ale vítanou spolupráci.
+Myslím, že je naše práce nejkompletnější. Jiní jednotlivci nebo i skupiny, bloggeři, účty na Twitteru, taky zkoušejí ověřovat. S většinou z nich na sebe na internetu dřív nebo později narazíme a snažíme se spolupracovat. Buď přímo sdílíme data, nebo se třeba navzájem opravujeme, když dojdeme k závěru, že jde o trochu jiný model… Neberme to jako konkurenci, ale jako vítanou spolupráci.
 
 *Můžete zveřejněnými informacemi zasáhnout do bojových operací? Máte nějaká pravidla?*
 
 Nehrajeme si na to, že bychom byli neutrální. Pokud bychom našli časově nebo místně citlivá data, která by mohla například druhé straně pomoct lokalizovat jednotku, tak budeme sdílet pouze ta ruská.
 
-*Jaké závěry jste si coby fanoušek vojenské techniky, který si prohledl stovky nebo tisíce fotografií z bojů, udělal o průběhu války?*
+*Jaké závěry jste si coby fanoušek vojenské techniky, který si prohlédl tisíce fotografií z bojů, udělal o průběhu války?*
 
-Zejména modernější varianty ruských tanků byly před nasazením silně přeceněné. Pořád převládá očekávání, že Rusko má armádu založenou hlavně na delostřelectvu, ale upřímně: jejich pozmení síly nejsou nijak působivé, jedině počtem.
+Zejména modernější varianty ruských tanků byly před nasazením silně přeceněné. Pořád převládá očekávání, že Rusko má armádu založenou hlavně na dělostřelectvu, ale upřímně: jejich pozemní síly nejsou nijak působivé, jedině počtem.
 
-Překvapilo mě, že Rusové byli mnohem hůž připravení, než se dalo realisticky čekat. Jejich problémy s logistikou byly známé, ale tak nějak jsme očekávali, že přípravu na takovou invazi úplně neodfláknou. Jenže odflákli.
+Překvapilo mě, že Rusové byli mnohem hůř připravení, než se dalo realisticky čekat. Jejich problémy s logistikou byly známé, ale tak nějak jsme očekávali, že přípravu na takovou invazi úplně neodfláknou. Jenže odflákli.
 
-Co se týče techniky, tak podle očekávání: Když někdo napatlá na střechu T-72 trochu plechu nebo ocelovou konstrukci,tak tím moderní protitankovou střelu skutečně nezastaví. A všichni kromě ruských vojáků to věděli to dopředu. Proč se s těmi úpravami obtěžovali, netuším.
+Co se týče techniky, tak podle očekávání: Když někdo napatlá na střechu T-72 trochu plechu nebo ocelovou konstrukci, tak tím moderní protitankovou střelu skutečně nezastaví. A všichni kromě ruských vojáků to věděli dopředu. Proč se s těmi úpravami obtěžovali, netuším.
 
-*Těm konstrukcím se říká emocionální podpěry...*
+*Těm konstrukcím se říká emocionální podpěry…*
 
-To věřím, ale jejich efekt v boji je nulový a v některých případech záporný. Protože konstrukce způsobí, že v některých situacích je tank lépe vidět a dá se líp zaměřit. Tank bez klece by se daleko líp schoval za nízkou zdí nebo v terénu, takhel je jeho detekce daleko snadnější.
+To věřím, ale jejich efekt v boji je nulový a v některých případech záporný. Protože konstrukce způsobí, že v některých situacích je tank lépe vidět a dá se líp zaměřit. Tank bez klece by se daleko líp schoval za nízkou zdí nebo v terénu, takhle je jeho detekce daleko snadnější.
 
-Psychologická a velmi teoretická šance, že by konstrukce mohla nějak pomoci, je tím minimálně vyvážená.
+Velmi teoretická šance, že by konstrukce mohla nějak pomoci, je tím přinejmenším vyvážená.
 
 *Co vás ještě překvapilo?*
 
-Největší kuriozita je, kolik protiletadlových systémů jako BUK, THOR a jiných modelů středního i krátkého dosahu Rusové ztrácejí, ať už jsou to zničená nebo opuštěná vozidla. Protože to vůbec není technika, která by se měla pohybovat na frontové linii. Jejich papírový dosah je od patnácti kilometrů výš, takže není důvod, aby courali dva kilometry za tanky.
+Největší kuriozita je, kolik protiletadlových systémů jako BUK, THOR a jiných modelů středního i krátkého dosahu Rusové ztrácejí, ať už jsou zničené, nebo opuštěné. Protože to vůbec není technika, která by se měla pohybovat na frontové linii. Jejich papírový dosah je od patnácti kilometrů výš, takže není důvod, aby courali dva kilometry za tanky.
 
 *Nemohli zabloudit?*
 
-U spousty jednotek bylo jasné, že zabloudily, popřípadě měly problémy se spojením s veliteli, takže pak někde zastavily a nedopadlo to snimi dobře.
+U spousty jednotek bylo jasné, že zabloudily, popřípadě měly problémy se spojením s veliteli, takže pak někde zastavily a nedopadlo to s nimi dobře.
 
-Asi před týdnem například Ukrajinci našli v lese zaparkované tři Tungušky, což jsou v podstatě mobilní protiletadlové kanóny, který mají současně rakety krátkého doletu proti letadlům. Ukrajinci je pochopitelně podpálili, protože to neměli jak z lesa promptně dostat.
-
-Ukrajinci poměrně rychle rozdistribuovali informaci, že pokud to jde odtáhnout a použít pro naše účely, udělejte to. Pokud ne, tak rychle podpálit, vyhodit do vzduchu.
+Asi před týdnem například Ukrajinci našli v lese zaparkované tři Tungušky. To jsou v podstatě mobilní protiletadlové kanóny, které současně nesou rakety krátkého doletu proti letadlům. Ukrajinské velení rozdistribuovali instrukci, že pokud jde takový nález odtáhnout a použít pro ukrajinské účely, má se to udělat. Pokud ne, tak rychle podpálit, vyhodit do vzduchu. Tyhle tři pochopitelně podpálili, protože jen neměli z lesa jak promptně dostat. 
 
 *Ověřoval jste ztráty techniky také v Sýrii nebo v Náhorním Karabachu. Čím se Ukrajina od těchto válek liší?*
 
-Nepochybně otevřenou a výraznou západní podporou co se týče dodávek zbraní. To, co se dodalo za celou dobu, kdy to šlo, do Sýrie, je zaokrouhlovací položka oproti tomu, co se na Ukrajinu poslalo během pár týdnů.
+Nepochybně otevřenou a výraznou západní podporou, to znamená dodávkami zbraní. Kolik se jich dodalo do Sýrie za celou dobu, kdy to bylo možné, je zaokrouhlovací položka oproti tomu, co se na Ukrajinu poslalo během pár týdnů.
 
-*Takže MANPADY (přenosné protiletadlové střely, které se odpalují z ramene, například americký Stinger), Javeliny a NLAW (automaticky naváděné púrotitankové střely) můžou být v takovým konfliktu rozhodující?*
+*Takže MANPADY (přenosné protiletadlové střely, které se odpalují z ramene, například americký Stinger), Javeliny a NLAW (automaticky naváděné protitankové střely) můžou být v takovém konfliktu rozhodující?*
 
-Jak protitankové, tak protiletadlové střely. Rusové stále operují se spoustu letadel a vrtulníků a Ukrajinci, když jim dodáme zítra dalších tisíc protiletadlových střel, pro ně určitě najdou využití. Už jenom proto, aby vyplnili mezery v pokrytí standardní protiletadlové ochrany. A zrovna tyhle účinné protiletadlové zbraně do Sýrie nikdy nešly.
+Jak protitankové střely, tak protiletadlové. Rusové stále operují se spoustou letadel a vrtulníků. Když Ukrajincům zítra dodáme dalších tisíc protiletadlových střel, určitě pro ně najdou využití. Už jenom proto, aby vyplnili mezery v pokrytí standardní protiletadlové ochrany. A zrovna tyhle účinné protiletadlové zbraně do Sýrie nikdy nešly.
 
-Teď to navíc vypadá, že Slováci v dohledné době pošlou na Ukrajinu S-300, stejně jako další státy střední a východní Evropy, které je mají ve výzbroji a většinou je nahrazují nebo už nahradily, takže by je mohly postrádat. Ukrajincům přitom můžou významně pomoct s doplněním jejich protivzdušné obrany.
+Teď to navíc vypadá, že Slováci v dohledné době pošlou na Ukrajinu S-300 (*protiletadlové raketové systémy dlouhého dosahu, pozn. red.*). Stejně jako další státy střední a východní Evropy, které je mají ve výzbroji a většinou je nahrazují nebo už nahradily, takže by je mohly postrádat. Ukrajincům přitom můžou významně pomoct s doplněním jejich protivzdušné obrany.
 
-Pravděpodobně ještě víc pomáhají rychlé informace o pohybu Rusů z průzkumných letadel NATO, která létají kolem ukrajinských hranic.
+A pravděpodobně ještě víc pomáhají rychlé informace o pohybu Rusů z průzkumných letadel NATO, která létají kolem ukrajinských hranic.
