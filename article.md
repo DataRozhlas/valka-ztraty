@@ -48,8 +48,6 @@ Ruská armáda aspoň na papíře postupuje, takže jejich propagandisté mají 
 
 Většina je sesbíraná z různých kanálů na Telegramu, popřípadě z Twitteru a o něco míň z YouTube. Telegram hodně používají Ukrajinci i Rusové, ať jde o oficiální účty bojujících stran, nebo různé regionální účty, sousedské skupiny a podobně. Data se tam snadno šíří.
 
-Čtěte také: https://www.irozhlas.cz/zpravy-domov/josef-slerka-telegram-rozhovor-extremismus-dezinformace-propaganda_2203230705_pik
-
 Velmi často, i když si sami nového materiálu nevšimneme, nás někdo označí na Twitteru: hele, tady je další T-72, podívejte se na ni.
 
 **Kolik materiálu vám takhle projde rukama?**
@@ -102,7 +100,7 @@ Velmi teoretická šance, že by konstrukce mohla nějak pomoci, je tím přinej
 
 **Co vás ještě překvapilo?**
 
-Největší kuriozita je, kolik protiletadlových systémů jako BUK, THOR a jiných modelů středního i krátkého dosahu Rusové ztrácejí, ať už jsou zničené, nebo opuštěné. Protože to vůbec není technika, která by se měla pohybovat na frontové linii. Jejich papírový dosah je od patnácti kilometrů výš, takže není důvod, aby courali dva kilometry za tanky.
+Největší kuriozita je, kolik protiletadlových systémů jako Buk, Tor a jiných modelů středního i krátkého dosahu Rusové ztrácejí, ať už jsou zničené, nebo opuštěné. Protože to vůbec není technika, která by se měla pohybovat na frontové linii. Jejich papírový dosah je od patnácti kilometrů výš, takže není důvod, aby courali dva kilometry za tanky.
 
 **Nemohli zabloudit?**
 
