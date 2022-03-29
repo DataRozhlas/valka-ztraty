@@ -1,5 +1,5 @@
 title: "O raketové systémy Rusové nesmyslně přicházejí dva kilometry za frontou, říká Čech, který ověřuje ztráty"
-perex: "Od prvního dne ruské invaze na Ukrajinu se z bojů šíří fotky a videa zničené techniky. Jakub Janovský pracuje v týmu, který tyto chaotické příspěvky přetváří v co nejspolehlivější databázi: Počet ověřených ztrát ruské armády tento týden přesáhl dva tisíce kusů bojové techniky, na ukrajinské straně je jich zatím čtvrtina."
+perex: "Od prvního dne ruské invaze na Ukrajinu se z bojů šíří fotky a videa zničené techniky. Jakub Janovský pracuje v mezinárodním týmu, který chaotické příspěvky přetváří v co nejspolehlivější databázi. Ověřené ztráty ruské armády podle ní přesáhly dva tisíce kusů bojové techniky, na ukrajinské straně je to zatím čtvrtina."
 coverimg:
 coverimg_note: "Foto <a href='https://ctk.cz'>ČTK</a>"
 styles: ["https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"]
@@ -10,47 +10,51 @@ options: [noheader, nopic] #wide, noheader (, nopic)
 <div id="root"></div>
 </wide>
 
-Jakub janovský je odborník na počítačové sítě a zároveň nadšenec do vojenské techniky. Od začátku ruské války na Ukrajině věnuje veškerý volný čas ověřování fotek a videí zničených transportérů, tanků a letadel, které kolují po internetu. Na [blogu holandských analytiků](https://www.oryxspioenkop.com/), kteří se v mírových dobách zaměřují na Severní Koreu, publikuje nejúplnější veřejně dostupné seznamy takto ověřených materiálů. „Není to první konflikt, u kterého podobné ověřování děláme. Máme zkušenost například z konfliktu mezi Arménií a Ázerbájdžánem v roce 2020, kde byly ztráty o něco víc dokumentované a tudíž víc vypovídající,“ říká v rozhovoru pro server iROZHLAS.cz.
+Jakub Janovský je odborník na počítačové sítě a zároveň nadšenec do vojenské techniky. Od začátku ruské války na Ukrajině věnuje veškerý volný čas ověřování fotek a videí zničených transportérů, tanků a letadel, které kolují po internetu. Na [blogu holandských analytiků Oryx](https://www.oryxspioenkop.com/), kteří se v mírových dobách zaměřují na Severní Koreu, publikuje nejúplnější veřejně dostupné seznamy takto ověřených materiálů. 
+
+„Není to první konflikt, u kterého podobné ověřování děláme. Máme zkušenost například z konfliktu mezi Arménií a Ázerbájdžánem v roce 2020, kde byly ztráty o něco lépe dokumentované a tudíž víc vypovídající,“ říká v rozhovoru pro server iROZHLAS.cz.
 
 *Má smysl sčítat ohořelé tanky, děla a náklaďáky podle záběrů z internetu? Není to jen pokračování informační války?*
 
-Smysl to učitě má. Pokud člověk chce mít aspoň hrubý přehled o rozsahu ztrát a jak na tom znepřátelené armády jsou, potřebuje nějaká data. Je velký rozdíl, kdybychom věděli, že Rusko dosud ztratilo přinejmenším 50 tanků nebo 300 tanků. Dokud člověk neprobere veškerá dostupná obrazová data, neeliminuje záběr stejného, již jednou započítaného tanku ze třináctého úhlu a podobně, je skutečně obtížné skutečné ztráty odhadnout, zejména když čísla rychle narůstají.
+Smysl to učitě má. Pokud člověk chce mít aspoň hrubý přehled o rozsahu ztrát a o stavu znepřátelených armád, potřebuje nějaká data. Je velký rozdíl vědět, zda Rusko dosud ztratilo přinejmenším 50 tanků, nebo 300 tanků. Dokud člověk neprobere veškerá dostupná obrazová data, neeliminuje záběr stejného, již jednou započítaného tanku ze třináctého úhlu a podobně, je skutečně obtížné skutečné ztráty odhadnout. Zejména když čísla rychle narůstají.
 
-Lidé musí počítat s tím, že námi zveřejňovaná čísla jsou základ. Je to minimum ztrát, které je vizuálně potvrzené a nezávisle ověřené. O kolik je realita vyšší, o tom se můžeme bavit. Nejsou to dokonalá data, ale jsou to ta nejlepší, jaká jsou nyní veřejně k dispozici.
+Lidé musí počítat s tím, že námi zveřejňovaná čísla jsou základ. Je to minimum ztrát, které jsou vizuálně potvrzené a nezávisle ověřené. O kolik je realita vyšší, o tom se můžeme bavit. Nejsou to dokonalá data, ale jsou to ta nejlepší, jaká jsou nyní veřejně k dispozici.
 
 *Vaši kritici namítnou, že zatímco téměř každý Ukrajinec má po ruce mobil připojený k internetu a silnou motivaci sdílet sebemenší úspěch vlastní armády, ruští vojáci museli před invazí telefony odevzdat a navíc by jejich velitelé agresi rádi prezentovali jako humanitární operaci.*
 
-To je trochu komplikovanější. Není úplně pravda, že by měli všichni ruští vojáci zabavené telefony. Ověřovali jsme docela dost videí pořízených zjevně telefony ruských vojáků. Nevím, nakolik je to dané korupcí a jinými faktory, jako například, že se velitelé ani neobtěžovali splnit rozkaz. Každopádně záběry od nich také existují.
+To je trochu komplikovanější. Není úplně pravda, že by měli všichni ruští vojáci zabavené telefony. Ověřovali jsme docela dost videí zjevně pořízených telefony ruských vojáků. Nevím, nakolik je to dané korupcí a jinými faktory, například že se velitelé ani neobtěžovali splnit rozkaz. Každopádně záběry od nich také existují.
 
-Co se týká ukrajinských civilistů: Většina z nich nepozná rozdíl mezi ruským a ukrajinským BVPéčkem (*bojovým vozidlem pěchoty – pozn.red*), pokud na něm nebude namalované Z. A ani to Zetko a další identifikační znaky nebyly v prvních dnech války tak dobře známé, aby je lidé rozeznali.
+Co se týká ukrajinských civilistů: většina z nich nepozná rozdíl mezi ruským a ukrajinským BVPéčkem (*bojovým vozidlem pěchoty – pozn. red.*), pokud na něm nebude namalované Z. A ani to Zetko a další identifikační znaky nebyly v prvních dnech války tak dobře známé, aby je lidé rozeznali.
 
-Měli jsme případ, kdy se na sociálních sístích šířilo video z palubní kamery v autě s oslavnými komentáři „Čtyři ruská zničená BVP!“ Ale byla ukrajinská, pochopitelně.
+Měli jsme případ, kdy se na sociálních sítích šířilo video z palubní kamery v autě s oslavnými komentáři „Čtyři ruská zničená BVP!“ Ale byla ukrajinská, pochopitelně.
 
-U zničených vozidel je také často opálený lak, takže není poznat, jestli na nich bylo něco namalovaného. Minimálně 95 procent populace nedokáže [rozeznat jeden ruský tank nebo BVP od druhého](https://texty.org.ua/projects/105597/upiznaj-svoyih-gra-trenazher-chij-ce-tank/) nebo od ukrajinského.
+U zničených vozidel je také často opálený lak, takže není poznat, jestli na nich bylo něco namalovaného. 
+
+Minimálně 95 procent populace nedokáže [rozeznat jeden ruský tank nebo BVP od druhého](https://texty.org.ua/projects/105597/upiznaj-svoyih-gra-trenazher-chij-ce-tank/) nebo od ukrajinského. 
 
 Takže ani tento filtr zase tak výrazný není.
 
-Rusko není v tak velké  nevýhodě, protože jejich armáda aspoň na papíře postupuje. Takže jejich propagandisti mají docela silnou motivaci zveřejňovat fotografie a záběry vojenských úspěchů, případně záběry z dronů, které jim lítají nad bojištěm. Můžou zveřejňovat a zveřejňují záběry zásahů, zničených cílů typu ukrajinský tank, ukrajinské dělostřelectvo a podobně.
+Ruská armáda aspoň na papíře postupuje, takže jejich propagandisti mají docela silnou motivaci zveřejňovat fotografie a záběry vojenských úspěchů, případně záběry z dronů, které jim lítají nad bojištěm. Můžou zveřejňovat a také zveřejňují záběry zásahů, zničených cílů typu ukrajinský tank, ukrajinské dělostřelectvo a podobně.
 
 *Z jakých zdrojů berete obrazový materiál k ověřování?*
 
-Většina je sesbíraná z různých kanálů na Telegramu, popřípadě z Twitter a o něco míň z YouTube. Telegram hodně používají Uklrajinci i Rusové ať už jsou to oficiální účty bojujících stran, nebo různé regionální účty, sousedské skupiny a podobně. Data se tam snadno šíří.
+Většina je sesbíraná z různých kanálů na Telegramu, popřípadě z Twitteru a o něco míň z YouTube. Telegram hodně používají Ukrajinci i Rusové, ať jde o oficiální účty bojujících stran, nebo různé regionální účty, sousedské skupiny a podobně. Data se tam snadno šíří.
 
 Čtěte také: https://www.irozhlas.cz/zpravy-domov/josef-slerka-telegram-rozhovor-extremismus-dezinformace-propaganda_2203230705_pik
 
-Velmi často, i když si sami nového materiálu nevšimneme, nás někdo označí na Twitteru: Hele, tady je další T-72, podívejte se na ni.
+Velmi často, i když si sami nového materiálu nevšimneme, nás někdo označí na Twitteru: hele, tady je další T-72, podívejte se na ni.
 
 *Kolik materiálu vám takhle projde rukama?*
 
-Když počítám obě strany, tako okolo stovky kusů těžké techniky denně. Všichni jsme dobrovolníci, děláme to ve volném čase, takže materiál zpracováváme, až když máme čas. Některý den přibude v databázi třicet záznamů, další dny to doháníme a dáme jich tam 150.
+Když počítám obě strany, tak okolo stovky kusů těžké techniky denně. Všichni jsme dobrovolníci, děláme to ve svém volnu, takže materiál zpracováváme, až když máme čas. Některý den přibude v databázi třicet záznamů, další dny to doháníme a dáme jich tam 150.
 
 *Kolik vás je v týmu?*
 
-Čtyři děláme identifikaci vozidel a vkládání dat na web. Ještě s námi spolupracuje skupina lidí, kteří se zaměřují na geolokaci.
+Čtyři identifikujeme vozidla a vkládáme data na web. Ještě s námi spolupracuje skupina lidí, kteří se zaměřují na geolokaci.
 
 *Jaký je proces ověřování, máte to standardizované?*
 
-Základem je co nejbližší identifikace vozidla. Sice některé modely sdílejí obě strany, řekněme BVP-2, ale u spousty modelů to není pravda. Například T-90 nebo T-72 ve verzi B3, u těch víme, že jsou vždy ruské.
+Základem je co nejbližší identifikace vozidla. Sice některé modely sdílejí obě strany, řekněme BVP-2, ale u spousty modelů to tak není. Například u T-90 nebo T-72 ve verzi B3 víme, že jsou vždy ruské.
 
 Ukrajina už pochopitelně používá i některé tanky, které Rusové opustili. Jelikož si ale uchováváme vizuální charakteristiky, fotky zničených i obsazených vozidel, tak se na ně můžeme podívat. Když teď přijde nově zničená T-90, porovnáme ji jak s minulými zničenými, tak i s těmi opuštěnými nebo obsazenými. Charakteristické znaky, poškození, kamufláže... Podle toho většinou velmi rychle identifikujeme konkrétní kusy, které už máme v databázi.
 
