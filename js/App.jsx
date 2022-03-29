@@ -25,6 +25,7 @@ const getData = async (url) => {
 
 const translateData = (data, slovnicek) => {
   const prelozenaData = data.map((d) => {
+    console.log(d.type);
     const translatedType = slovnicek.filter((s) => s[0] === d.type)[0][1];
     return {
       ...d,
