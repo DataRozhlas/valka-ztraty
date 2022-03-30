@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useLayoutEffect } from "react";
-import d3 from "./d3Importer.js";
+import d3 from "./d3importer.js";
 import MultipleSelect from "./MultipleSelect.jsx";
 import Graf from "./Graf.jsx";
 import Legenda from "./Legenda.jsx";
