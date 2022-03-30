@@ -4,3 +4,7 @@
   text-overflow: ellipsis !important;
   overflow: hidden !important;
 }
+
+ul li {
+  background: none;
+}
