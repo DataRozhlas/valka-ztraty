@@ -29,6 +29,17 @@ const getData = async (url) => {
   }
 };
 
+const getUpdated = async (url) => {
+  try {
+    const response = await fetch(url);
+    const text = await response.text();
+    const data = JSON.parse(text);
+    return data;
+  } catch (error) {
+    console.log(error);
+  }
+};
+
 const translateData = (data, slovnicek) => {
   const prelozenaData = data.map((d) => {
     const translatedType = slovnicek.filter((s) => s[0] === d.type)[0][1];
@@ -41,34 +52,34 @@ const translateData = (data, slovnicek) => {
 };
 
 const slovnicek = [
-  ["All Types", "Všechny druhy vojenské techniky"],
-  ["Tanks", "Tanky"],
-  ["Armoured Fighting Vehicles", "Obrněná bojová vozidla"],
-  ["Infantry Fighting Vehicles", "Bojová vozidla pěchoty"],
-  ["Armoured Personnel Carriers", "Obrněné transportéry"],
-  ["Mine-Resistant Ambush Protected", "Vozidla MRAP s ochranou proti minám"],
-  ["Infantry Mobility Vehicles", "Lehká obrněná vozidla"],
-  ["Communications Stations", "Spojovací technika"],
-  ["Engineering Vehicles And Equipment", "Ženijní technika"],
-  ["Engineering Vehicles", "Ženijní technika"],
-  ["Anti-Tank Guided Missiles", "Protitankové řízené střely"],
-  ["Anti-tank Guided Missiles", "Protitankové řízené střely"],
-  ["Man-Portable Air Defence Systems", "Přenosné systémy protivzdušné obrany"],
-  ["Heavy Mortars", "Těžké minomety"],
-  ["Towed Artillery", "Tažená děla"],
-  ["Self-Propelled Artillery", "Samohybná děla"],
-  ["Multiple Rocket Launchers", "Raketomety"],
-  ["Anti-Aircraft Guns", "Protiletadlové kanóny"],
-  ["Self-Propelled Anti-Aircraft Guns", "Samohybné protiletadlové kanóny"],
-  ["Surface-To-Air Missile Systems", "Raketové systémy země-vzduch"],
-  ["Radars", "Radary"],
-  ["Jammers And Deception Systems", "Rušičky"],
-  ["Aircraft", "Letadla"],
-  ["Helicopters", "Vrtulníky"],
-  ["Unmanned Aerial Vehicles", "Drony"],
-  ["Naval Ships", "Námořní lodě"],
-  ["Logistics Trains", "Zásobovací vlaky"],
-  ["Trucks, Vehicles and Jeeps", "Nákladní auta, vozidla a džípy"],
+  ["all types", "Všechny druhy vojenské techniky"],
+  ["tanks", "Tanky"],
+  ["armoured fighting vehicles", "Obrněná bojová vozidla"],
+  ["infantry fighting vehicles", "Bojová vozidla pěchoty"],
+  ["armoured personnel carriers", "Obrněné transportéry"],
+  ["mine-resistant ambush protected", "Vozidla MRAP s ochranou proti minám"],
+  ["infantry mobility vehicles", "Lehká obrněná vozidla"],
+  ["communications stations", "Spojovací technika"],
+  ["engineering vehicles and equipment", "Ženijní technika"],
+  ["engineering vehicles", "Ženijní technika"],
+  ["anti-tank guided missiles", "Protitankové řízené střely"],
+  ["anti-tank guided missiles", "Protitankové řízené střely"],
+  ["man-portable air defence systems", "Přenosné systémy protivzdušné obrany"],
+  ["heavy mortars", "Těžké minomety"],
+  ["towed artillery", "Tažená děla"],
+  ["self-propelled artillery", "Samohybná děla"],
+  ["multiple rocket launchers", "Raketomety"],
+  ["anti-aircraft guns", "Protiletadlové kanóny"],
+  ["self-propelled anti-aircraft guns", "Samohybné protiletadlové kanóny"],
+  ["surface-to-air missile systems", "Raketové systémy země-vzduch"],
+  ["radars", "Radary"],
+  ["jammers and deception systems", "Rušičky"],
+  ["aircraft", "Letadla"],
+  ["helicopters", "Vrtulníky"],
+  ["unmanned aerial vehicles", "Drony"],
+  ["naval ships", "Námořní lodě"],
+  ["logistics trains", "Zásobovací vlaky"],
+  ["trucks, vehicles and jeeps", "Nákladní auta, vozidla a džípy"],
 ];
 
 function App() {
@@ -79,13 +90,23 @@ function App() {
     "Bojová vozidla pěchoty",
   ]);
   const [maxLength, setMaxLength] = useState(2020);
+  const [updated, setUpdated] = useState("");
 
   useEffect(async () => {
     const data = await getData(
-      "https://data.irozhlas.cz/valka-ztraty/data/totals_by_type.csv"
+      "https://data.irozhlas.cz/oryx-cache/totals_by_type.csv"
     );
     const result = translateData(data, slovnicek);
     setData(result);
+  }, []);
+
+  useEffect(async () => {
+    const data = await getUpdated(
+      "https://data.irozhlas.cz/oryx-cache/updated.json"
+    );
+    setUpdated(
+      new Date(data.updated).toLocaleString("cs-CZ", { dateStyle: "short" })
+    );
   }, []);
 
   useLayoutEffect(() => {
@@ -122,7 +143,7 @@ function App() {
           <Link href="https://www.oryxspioenkop.com/2022/02/attack-on-europe-documenting-equipment.html">
             Oryx
           </Link>
-          , stav k 29. březnu
+          , stav k {updated}
         </Typography>
       </Container>
     </div>
