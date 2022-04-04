@@ -42,6 +42,7 @@ const getUpdated = async (url) => {
 
 const translateData = (data, slovnicek) => {
   const prelozenaData = data.map((d) => {
+    console.log(d.type);
     const translatedType = slovnicek.filter((s) => s[0] === d.type)[0][1];
     return {
       ...d,
@@ -72,7 +73,8 @@ const slovnicek = [
   ["anti-aircraft guns", "Protiletadlové kanóny"],
   ["self-propelled anti-aircraft guns", "Samohybné protiletadlové kanóny"],
   ["surface-to-air missile systems", "Raketové systémy země-vzduch"],
-  ["radars", "Radary"],
+  ["radars and communications equipment", "Radary a komunikační technika"],
+  ["radars", "Radary a komunikační technika"],
   ["jammers and deception systems", "Rušičky"],
   ["aircraft", "Letadla"],
   ["helicopters", "Vrtulníky"],
