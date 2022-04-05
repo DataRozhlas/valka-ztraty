@@ -8,3 +8,7 @@
 ul li {
   background: none;
 }
+
+#root {
+  background-color: white;
+}
