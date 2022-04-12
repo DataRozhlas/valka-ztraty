@@ -42,7 +42,7 @@ const getUpdated = async (url) => {
 
 const translateData = (data, slovnicek) => {
   const prelozenaData = data.map((d) => {
-    console.log(d.type);
+    //console.log(d.type);
     const translatedType = slovnicek.filter((s) => s[0] === d.type)[0][1];
     return {
       ...d,
@@ -60,7 +60,10 @@ const slovnicek = [
   ["armoured personnel carriers", "Obrněné transportéry"],
   ["mine-resistant ambush protected", "Vozidla MRAP s ochranou proti minám"],
   ["infantry mobility vehicles", "Lehká obrněná vozidla"],
-  ["communications stations", "Spojovací technika"],
+  [
+    "command posts and communications stations",
+    "Velitelské posty a spojovací technika",
+  ],
   ["engineering vehicles and equipment", "Ženijní technika"],
   ["engineering vehicles", "Ženijní technika"],
   ["anti-tank guided missiles", "Protitankové řízené střely"],
