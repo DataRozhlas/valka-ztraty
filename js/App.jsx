@@ -85,6 +85,10 @@ const slovnicek = [
   ["naval ships", "Námořní lodě"],
   ["logistics trains", "Zásobovací vlaky"],
   ["trucks, vehicles and jeeps", "Nákladní auta, vozidla a džípy"],
+  [
+    "self-propelled anti-tank missile systems",
+    "Samohybné protitankové raketové systémy",
+  ],
 ];
 
 function App() {
