@@ -9,11 +9,11 @@ import Link from "@mui/material/Link";
 
 const isMobile = window.innerWidth < 768;
 
-const getData = async (url) => {
+const getData = async url => {
   try {
     const response = await fetch(url);
     const text = await response.text();
-    const data = d3.csvParse(text, (d) => {
+    const data = d3.csvParse(text, d => {
       return {
         country: d.country,
         type: d.equipment_type,
@@ -29,7 +29,7 @@ const getData = async (url) => {
   }
 };
 
-const getUpdated = async (url) => {
+const getUpdated = async url => {
   try {
     const response = await fetch(url);
     const text = await response.text();
@@ -41,9 +41,9 @@ const getUpdated = async (url) => {
 };
 
 const translateData = (data, slovnicek) => {
-  const prelozenaData = data.map((d) => {
-    //console.log(d.type);
-    const translatedType = slovnicek.filter((s) => s[0] === d.type)[0][1];
+  const prelozenaData = data.map(d => {
+    console.log(d.type);
+    const translatedType = slovnicek.filter(s => s[0] === d.type)[0][1];
     return {
       ...d,
       type: translatedType,
@@ -89,6 +89,10 @@ const slovnicek = [
     "self-propelled anti-tank missile systems",
     "Samohybné protitankové raketové systémy",
   ],
+  [
+    "artillery support vehicles and equipment",
+    "Vozidla a zařízení dělostřelecké podpory",
+  ],
 ];
 
 function App() {
@@ -119,7 +123,7 @@ function App() {
   }, []);
 
   useLayoutEffect(() => {
-    const vybranaData = data.filter((d) => vybrane.includes(d.type));
+    const vybranaData = data.filter(d => vybrane.includes(d.type));
     const newMax = vybranaData.reduce((acc, curr) => {
       const total =
         curr.destroyed + curr.captured + curr.damaged + curr.abandoned;
